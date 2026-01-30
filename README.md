@@ -40,7 +40,7 @@ http通信で為替レートをjson形式で取得します。jsonには各通�
 
 通貨コードは大体の人が知らないので通貨コードの一覧を出力するようにしました。コードに併せて国名もつければなお親切だったかもしれません。
 
-https://github.com/user-attachments/assets/0e0659b5-ad72-4af1-8f7c-9f9cbe8a1677
+![通貨コードの一覧](https://github.com/user-attachments/assets/0e0659b5-ad72-4af1-8f7c-9f9cbe8a1677)
 
 通貨コードの入出力はあまり凝っていません。最後に編集したのが電卓だったためです。入力した文字列がヒットしない場合はプログラムを終了します。
 
