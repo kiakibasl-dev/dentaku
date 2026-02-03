@@ -50,10 +50,11 @@ https://jsoneditoronline.org/#left=local.vesofi&right=local.huxani
 
 ## 4.開発環境
 | 項目 | 内容 |
-|:---|:---:|
-|エディタ|VScode|
-|コンパイラ|MinGW64|
-|ライブラリ|httplib.h/json.hpp|
+|:---|:---|
+|言語|C++17|
+|エディタ|Visual Studio Code|
+|コンパイラ|Mingw_w64(GCC 15.2.0)|
+|ライブラリ|nlohmann/json, cpp-httplib|
 |外部API|http://www.floatrates.com|
 
 ## 5.工夫した点
@@ -87,4 +88,5 @@ https://jsoneditoronline.org/#left=local.vesofi&right=local.huxani
 
 のように入力すると右オペランドを入力する前に演算の処理が終了します。原因はcinでcharを読み込む部分で複数の文字（文字列）を入力するとcinのバッファに2文字目以降のデータが残ってしまうことです。
 ### ファイルの分割
-別々に作ったファイルを最終的に統合する予定でしたがうまくいきませんでした。コンパイラやリンカやデバッカの存在は知っていますが実際に扱うとなると知識も経験も足りませんでした。
+今回は別々にファイルを作成しましたが、ゆくゆくは各ファイルをソースファイルとして一つのプログラムに纏めたいと思います。
+
