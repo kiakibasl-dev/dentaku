@@ -11,12 +11,12 @@
           <mxGeometry height="60" width="120" x="199" y="20" as="geometry" />
         </mxCell>
         <mxCell id="dwdHoz7xkXZcHSSGSvYt-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="終了" vertex="1">
-          <mxGeometry height="60" width="120" x="520" y="370" as="geometry" />
+          <mxGeometry height="60" width="120" x="480" y="370" as="geometry" />
         </mxCell>
         <mxCell id="dwdHoz7xkXZcHSSGSvYt-35" edge="1" parent="1" source="dwdHoz7xkXZcHSSGSvYt-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="dwdHoz7xkXZcHSSGSvYt-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dwdHoz7xkXZcHSSGSvYt-29" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" value="ループ&lt;div&gt;&lt;br&gt;&lt;div&gt;cout&lt;/div&gt;&lt;div&gt;↓&lt;/div&gt;&lt;div&gt;cin ← num1&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;cin.fail()でbreak&lt;/div&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="dwdHoz7xkXZcHSSGSvYt-29" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;入出力と&lt;/div&gt;&lt;div&gt;バリデーション&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;div&gt;cout&lt;/div&gt;&lt;div&gt;↓&lt;/div&gt;&lt;div&gt;cin ← num1&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;cin.fail()がfalse&lt;/div&gt;&lt;div&gt;ループ終了&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="160" width="120" x="199" y="120" as="geometry" />
         </mxCell>
         <mxCell id="dwdHoz7xkXZcHSSGSvYt-33" edge="1" parent="1" source="dwdHoz7xkXZcHSSGSvYt-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="dwdHoz7xkXZcHSSGSvYt-5">
@@ -25,13 +25,13 @@
         <mxCell id="dwdHoz7xkXZcHSSGSvYt-36" edge="1" parent="1" source="dwdHoz7xkXZcHSSGSvYt-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="dwdHoz7xkXZcHSSGSvYt-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dwdHoz7xkXZcHSSGSvYt-30" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" value="ループ&lt;div&gt;&lt;br&gt;&lt;div&gt;cout&lt;/div&gt;&lt;div&gt;↓&lt;/div&gt;&lt;div&gt;cin ← op&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;opでbreak&lt;/div&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="dwdHoz7xkXZcHSSGSvYt-30" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" value="入出力と&lt;div&gt;バリデーション&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;cout&lt;/div&gt;&lt;div&gt;↓&lt;/div&gt;&lt;div&gt;cin ← op&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;opが&lt;/div&gt;&lt;div&gt;四則演算 or &#39;q&#39;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;でループ終了&lt;/div&gt;" vertex="1">
           <mxGeometry height="160" width="120" x="199" y="320" as="geometry" />
         </mxCell>
         <mxCell id="dwdHoz7xkXZcHSSGSvYt-37" edge="1" parent="1" source="dwdHoz7xkXZcHSSGSvYt-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="dwdHoz7xkXZcHSSGSvYt-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dwdHoz7xkXZcHSSGSvYt-31" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" value="ループ&lt;div&gt;&lt;br&gt;&lt;div&gt;cout&lt;/div&gt;&lt;div&gt;↓&lt;/div&gt;&lt;div&gt;cin ← num2&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;cin.fail()でbreak&lt;/div&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="dwdHoz7xkXZcHSSGSvYt-31" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" value="入出力と&lt;div&gt;バリデーション&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;cout&lt;/div&gt;&lt;div&gt;↓&lt;/div&gt;&lt;div&gt;cin ← num2&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;cin.fail()がfalse&lt;/div&gt;&lt;div&gt;ループ終了&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="160" width="120" x="199" y="520" as="geometry" />
         </mxCell>
         <mxCell id="dwdHoz7xkXZcHSSGSvYt-39" edge="1" parent="1" source="dwdHoz7xkXZcHSSGSvYt-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="dwdHoz7xkXZcHSSGSvYt-38">
@@ -71,6 +71,12 @@
         </mxCell>
         <mxCell id="dwdHoz7xkXZcHSSGSvYt-46" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="false" vertex="1">
           <mxGeometry height="30" width="60" x="259" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="dwdHoz7xkXZcHSSGSvYt-48" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="四則演算" vertex="1">
+          <mxGeometry height="30" width="60" x="259" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="dwdHoz7xkXZcHSSGSvYt-49" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&#39;q&#39;" vertex="1">
+          <mxGeometry height="30" width="60" x="370" y="400" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
