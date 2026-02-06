@@ -1,0 +1,135 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.7">
+  <diagram name="ページ-1" id="kpn9zx2wjSHRu4RA7iPD">
+    <mxGraphModel dx="846" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0qqW3Doq2RSqOmT8WtGc-28" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="950" width="160" x="60" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0qqW3Doq2RSqOmT8WtGc-3" edge="1" parent="0qqW3Doq2RSqOmT8WtGc-28" source="0qqW3Doq2RSqOmT8WtGc-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="0qqW3Doq2RSqOmT8WtGc-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0qqW3Doq2RSqOmT8WtGc-1" parent="0qqW3Doq2RSqOmT8WtGc-28" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="開始" vertex="1">
+          <mxGeometry height="40" width="120" x="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0qqW3Doq2RSqOmT8WtGc-5" edge="1" parent="0qqW3Doq2RSqOmT8WtGc-28" source="0qqW3Doq2RSqOmT8WtGc-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="0qqW3Doq2RSqOmT8WtGc-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0qqW3Doq2RSqOmT8WtGc-2" parent="0qqW3Doq2RSqOmT8WtGc-28" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="通信先ホストを指定して初期化" vertex="1">
+          <mxGeometry height="60" width="120" x="20" y="67" as="geometry" />
+        </mxCell>
+        <mxCell id="0qqW3Doq2RSqOmT8WtGc-7" edge="1" parent="0qqW3Doq2RSqOmT8WtGc-28" source="0qqW3Doq2RSqOmT8WtGc-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="0qqW3Doq2RSqOmT8WtGc-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0qqW3Doq2RSqOmT8WtGc-4" parent="0qqW3Doq2RSqOmT8WtGc-28" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" value="通信の成否" vertex="1">
+          <mxGeometry height="80" width="120" x="20" y="154" as="geometry" />
+        </mxCell>
+        <mxCell id="0qqW3Doq2RSqOmT8WtGc-9" edge="1" parent="0qqW3Doq2RSqOmT8WtGc-28" source="0qqW3Doq2RSqOmT8WtGc-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="0qqW3Doq2RSqOmT8WtGc-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0qqW3Doq2RSqOmT8WtGc-6" parent="0qqW3Doq2RSqOmT8WtGc-28" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" value="ステータスが正常か？" vertex="1">
+          <mxGeometry height="80" width="120" x="20" y="261" as="geometry" />
+        </mxCell>
+        <mxCell id="0qqW3Doq2RSqOmT8WtGc-11" edge="1" parent="0qqW3Doq2RSqOmT8WtGc-28" source="0qqW3Doq2RSqOmT8WtGc-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="0qqW3Doq2RSqOmT8WtGc-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0qqW3Doq2RSqOmT8WtGc-8" parent="0qqW3Doq2RSqOmT8WtGc-28" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="レスポンスをjson化" vertex="1">
+          <mxGeometry height="60" width="120" x="20" y="368" as="geometry" />
+        </mxCell>
+        <mxCell id="0qqW3Doq2RSqOmT8WtGc-13" edge="1" parent="0qqW3Doq2RSqOmT8WtGc-28" source="0qqW3Doq2RSqOmT8WtGc-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="0qqW3Doq2RSqOmT8WtGc-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0qqW3Doq2RSqOmT8WtGc-10" parent="0qqW3Doq2RSqOmT8WtGc-28" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="アプリの説明と&lt;div&gt;対応通貨の一覧を&lt;/div&gt;&lt;div&gt;出力&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="20" y="455" as="geometry" />
+        </mxCell>
+        <mxCell id="0qqW3Doq2RSqOmT8WtGc-17" edge="1" parent="0qqW3Doq2RSqOmT8WtGc-28" source="0qqW3Doq2RSqOmT8WtGc-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="0qqW3Doq2RSqOmT8WtGc-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0qqW3Doq2RSqOmT8WtGc-12" parent="0qqW3Doq2RSqOmT8WtGc-28" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" value="一覧が必要か入力" vertex="1">
+          <mxGeometry height="80" width="120" x="20" y="542" as="geometry" />
+        </mxCell>
+        <mxCell id="0qqW3Doq2RSqOmT8WtGc-21" edge="1" parent="0qqW3Doq2RSqOmT8WtGc-28" source="0qqW3Doq2RSqOmT8WtGc-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="0qqW3Doq2RSqOmT8WtGc-20" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0qqW3Doq2RSqOmT8WtGc-16" parent="0qqW3Doq2RSqOmT8WtGc-28" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" value="jsonのイテレータで&lt;div&gt;探索&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="160" y="649" as="geometry" />
+        </mxCell>
+        <mxCell id="0qqW3Doq2RSqOmT8WtGc-25" edge="1" parent="0qqW3Doq2RSqOmT8WtGc-28" source="0qqW3Doq2RSqOmT8WtGc-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="0qqW3Doq2RSqOmT8WtGc-24" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0qqW3Doq2RSqOmT8WtGc-20" parent="0qqW3Doq2RSqOmT8WtGc-28" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="通貨コードを出力" vertex="1">
+          <mxGeometry height="60" width="120" x="20" y="716" as="geometry" />
+        </mxCell>
+        <mxCell id="0qqW3Doq2RSqOmT8WtGc-27" edge="1" parent="0qqW3Doq2RSqOmT8WtGc-28" source="0qqW3Doq2RSqOmT8WtGc-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="0qqW3Doq2RSqOmT8WtGc-26" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0qqW3Doq2RSqOmT8WtGc-24" parent="0qqW3Doq2RSqOmT8WtGc-28" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" value="改行後に&lt;div&gt;10回出力したか？&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="20" y="803" as="geometry" />
+        </mxCell>
+        <mxCell id="0qqW3Doq2RSqOmT8WtGc-26" parent="0qqW3Doq2RSqOmT8WtGc-28" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;direction=west;" value="ループ終了" vertex="1">
+          <mxGeometry height="40" width="160" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="0qqW3Doq2RSqOmT8WtGc-30" edge="1" parent="1" source="0qqW3Doq2RSqOmT8WtGc-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="0qqW3Doq2RSqOmT8WtGc-29" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0qqW3Doq2RSqOmT8WtGc-39" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="348" width="120" x="440" y="592" as="geometry" />
+        </mxCell>
+        <mxCell id="0qqW3Doq2RSqOmT8WtGc-32" edge="1" parent="0qqW3Doq2RSqOmT8WtGc-39" source="0qqW3Doq2RSqOmT8WtGc-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="0qqW3Doq2RSqOmT8WtGc-31" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0qqW3Doq2RSqOmT8WtGc-29" parent="0qqW3Doq2RSqOmT8WtGc-39" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="通貨コードのペアと金額を入力" vertex="1">
+          <mxGeometry height="60" width="120" as="geometry" />
+        </mxCell>
+        <mxCell id="0qqW3Doq2RSqOmT8WtGc-34" edge="1" parent="0qqW3Doq2RSqOmT8WtGc-39" source="0qqW3Doq2RSqOmT8WtGc-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="0qqW3Doq2RSqOmT8WtGc-33" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0qqW3Doq2RSqOmT8WtGc-31" parent="0qqW3Doq2RSqOmT8WtGc-39" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" value="入力された&lt;div&gt;通貨コードが&lt;div&gt;対応しているか？&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" y="89" as="geometry" />
+        </mxCell>
+        <mxCell id="0qqW3Doq2RSqOmT8WtGc-38" edge="1" parent="0qqW3Doq2RSqOmT8WtGc-39" source="0qqW3Doq2RSqOmT8WtGc-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="0qqW3Doq2RSqOmT8WtGc-37" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0qqW3Doq2RSqOmT8WtGc-33" parent="0qqW3Doq2RSqOmT8WtGc-39" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="米国ドルを媒介に通貨のレートを計算&lt;div&gt;出力&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" y="199" as="geometry" />
+        </mxCell>
+        <mxCell id="0qqW3Doq2RSqOmT8WtGc-37" parent="0qqW3Doq2RSqOmT8WtGc-39" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="終了" vertex="1">
+          <mxGeometry height="60" width="120" y="288" as="geometry" />
+        </mxCell>
+        <mxCell id="0qqW3Doq2RSqOmT8WtGc-42" edge="1" parent="1" source="0qqW3Doq2RSqOmT8WtGc-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="0qqW3Doq2RSqOmT8WtGc-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="930" />
+              <mxPoint x="140" y="930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0qqW3Doq2RSqOmT8WtGc-40" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="改行" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="853" as="geometry" />
+        </mxCell>
+        <mxCell id="0qqW3Doq2RSqOmT8WtGc-41" edge="1" parent="1" source="0qqW3Doq2RSqOmT8WtGc-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="0qqW3Doq2RSqOmT8WtGc-40" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0qqW3Doq2RSqOmT8WtGc-43" edge="1" parent="1" source="0qqW3Doq2RSqOmT8WtGc-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="0qqW3Doq2RSqOmT8WtGc-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="970" />
+              <mxPoint x="400" y="622" />
+            </Array>
+            <mxPoint x="420" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0qqW3Doq2RSqOmT8WtGc-46" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="エラー終了" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="311" as="geometry" />
+        </mxCell>
+        <mxCell id="0qqW3Doq2RSqOmT8WtGc-47" edge="1" parent="1" source="0qqW3Doq2RSqOmT8WtGc-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="0qqW3Doq2RSqOmT8WtGc-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0qqW3Doq2RSqOmT8WtGc-48" edge="1" parent="1" source="0qqW3Doq2RSqOmT8WtGc-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="0qqW3Doq2RSqOmT8WtGc-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
