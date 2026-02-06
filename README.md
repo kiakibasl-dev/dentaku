@@ -18,24 +18,30 @@ Windowsのデフォルトの電卓アプリを再現しました。
 |標準の電卓|四則演算|
 |進数変換|10進数を16までの進数に変換|
 |為替レート|為替レートを取得し計算|
-### 使い方
-#### 標準の電卓
+### 標準の電卓
 do-while文で入出力や演算をループさせることで、電卓の特徴である加減乗除を繰り返す処理を再現しました。見直すとシンプルにwhile文でよかったですね。
+
+![demo](https://github.com/user-attachments/assets/5dbea1ec-52d6-4631-aa20-a80d7cba6de6)
+
 
 オペランドや演算子の入力でもdo-whileループを用いてエラーハンドリングを行っています。
 型は合っているが入力を間違えた場合に対応していないのが不親切かもしれません。
 
-![demo](https://github.com/user-attachments/assets/5dbea1ec-52d6-4631-aa20-a80d7cba6de6)
-#### 進数変換
+![標準電卓.drawio](https://github.com/user-attachments/assets/0669d8a7-c9e1-4102-abee-1cafb5ca1388)
+
+
+### 進数変換
 10進数を任意（2～16）の進数に変換します。
 11以上の進数に対応するために変換された数は文字列で扱われます。逆変換を実装するときは工夫しないといけません。
 
 アルゴリズムは単純で、剰余と商を交互に行って下の桁から計算しています。stringのreverseを用いて逆順になっている進数表示を直しています。
-#### 為替レート
+
+![base_n_num.drawio](https://github.com/user-attachments/assets/b32c5259-b56f-47c8-9056-35a8c3a0f26b)
+
+### 為替レート
 http通信で為替レートをjson形式で取得します。jsonには各通貨に対してアメリカドルとのレートやそのレートの逆数などが結びついています。
 
 ![為替APIのjsonの一部](https://github.com/user-attachments/assets/5321ac4f-7e23-4805-96f7-76a5f9e04812)
-
 https://jsoneditoronline.org/#left=local.vesofi&right=local.huxani
 
 変換前の通貨（基準通貨）とアメリカドルのレートの逆数と、変換後の通貨（決済通貨）とアメリカドルのレートを掛け算すれば任意の組み合わせで為替レートを算出できます。
@@ -47,6 +53,8 @@ https://jsoneditoronline.org/#left=local.vesofi&right=local.huxani
 通貨コードの入出力はあまり凝っていません。最後に編集したのが電卓だったためです。入力した文字列がヒットしない場合はプログラムを終了します。
 
 基準通貨、決済通貨、基準通貨の金額を入力すると決済通貨の金額が出力されます。
+
+![rateAPI.drawio](https://github.com/user-attachments/assets/c58c67cb-7680-4957-97c4-6cfd437472aa)
 
 ## 4.開発環境
 | 項目 | 内容 |
