@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.7">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0" version="29.3.8">
   <diagram name="ページ-1" id="kpn9zx2wjSHRu4RA7iPD">
-    <mxGraphModel dx="846" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1418" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -96,6 +96,14 @@
         </mxCell>
         <mxCell id="0qqW3Doq2RSqOmT8WtGc-37" parent="0qqW3Doq2RSqOmT8WtGc-39" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="終了" vertex="1">
           <mxGeometry height="60" width="120" y="288" as="geometry" />
+        </mxCell>
+        <mxCell id="v1fqDevSmcfIAwtP1MN_-1" edge="1" parent="0qqW3Doq2RSqOmT8WtGc-39" source="0qqW3Doq2RSqOmT8WtGc-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="0qqW3Doq2RSqOmT8WtGc-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="129" />
+              <mxPoint x="160" y="318" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="0qqW3Doq2RSqOmT8WtGc-42" edge="1" parent="1" source="0qqW3Doq2RSqOmT8WtGc-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="0qqW3Doq2RSqOmT8WtGc-26">
           <mxGeometry relative="1" as="geometry">
