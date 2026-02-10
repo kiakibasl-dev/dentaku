@@ -35,11 +35,10 @@ Windowsのデフォルトの電卓アプリを再現しました。
 ### 標準の電卓
 do-while文で入出力や演算をループさせることで、電卓の特徴である加減乗除を繰り返す処理を再現しました。見直すとシンプルにwhile文でよかったですね。
 
-![demo](https://github.com/user-attachments/assets/5dbea1ec-52d6-4631-aa20-a80d7cba6de6)
-
-
 オペランドや演算子の入力でもdo-whileループを用いてエラーハンドリングを行っています。
 型は合っているが入力を間違えた場合に対応していないのが不親切かもしれません。
+
+![demo](https://github.com/user-attachments/assets/5dbea1ec-52d6-4631-aa20-a80d7cba6de6)
 
 ![標準電卓.drawio](https://github.com/user-attachments/assets/0669d8a7-c9e1-4102-abee-1cafb5ca1388)
 
