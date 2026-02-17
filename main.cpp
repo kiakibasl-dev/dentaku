@@ -1,7 +1,9 @@
 #include <iostream>
-#include "normal_dentaku.h"
-#include "base_n_num.h"
-#include "rateAPI.h"
+#include "normal_dentaku.hpp"
+#include "base_n_num.hpp"
+#include "rateAPI.hpp"
+
+using namespace std;
 
 void main(){
     cout << 123 << endl;

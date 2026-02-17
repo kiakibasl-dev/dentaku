@@ -7,7 +7,7 @@
 using json = nlohmann::json;
 using namespace std;
 
-int main() {
+int rateAPI() {
     //UTF-8のロケールを設定
     setlocale(LC_ALL, "ja_JP.UTF-8");
 

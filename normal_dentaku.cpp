@@ -24,7 +24,7 @@ double Calculator::Calc(double x, char op, double y){
     }
 }
 
-int main(){
+int normalDentaku(){
     //UTF-8のロケールを設定
     setlocale(LC_ALL, "ja_JP.UTF-8");
     //プログラム起動時のメッセージ
