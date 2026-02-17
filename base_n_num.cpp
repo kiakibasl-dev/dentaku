@@ -52,4 +52,6 @@ int baseNnum(){
     }
 
     cout << "ｎ進数変換を終了します。" << endl;
+
+    return 0;
 }

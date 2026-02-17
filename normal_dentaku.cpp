@@ -84,4 +84,6 @@ int normalDentaku(){
             cout << num1 << endl;
         }
     }while(1);
+
+    return 0;
 }

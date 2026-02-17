@@ -5,7 +5,7 @@
 
 using namespace std;
 
-void main(){
+int main(){
     cout << 123 << endl;
     int num;
     cin >> num;
