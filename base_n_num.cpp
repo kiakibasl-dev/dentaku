@@ -24,7 +24,7 @@ string fnc(int dec, int base){
     return baseNnum;
 }
 
-int main(){
+int baseNnum(){
     //UTF-8のロケールを設定
     setlocale(LC_ALL, "ja_JP.UTF-8");
     //プログラム起動時のメッセージ
