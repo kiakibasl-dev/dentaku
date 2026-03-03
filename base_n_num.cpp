@@ -29,23 +29,35 @@ int baseNnum(){
     setlocale(LC_ALL, "ja_JP.UTF-8");
     //プログラム起動時のメッセージ
     cout << "10進数を2以上16以下のｎ進数に変換します。" << endl;
+    cout << "入力はすべて10進数です" << endl;
 
     while(1){
-        cout << "10進数の正の整数を入力してください。終了するときは数字以外の文字を入力をしてください" << endl;
-        int decimal; cin >> decimal;
-        if(cin.fail()){
-            cout << "数字以外の文字が入力されました。" << endl;
-            break;
+        
+        //変換前整数の入力バリデーション
+        int decimal;
+        while(1){
+            cout <<"正の整数を入力してください" << endl;
+            cin >> decimal;
+            if(cin.fail()){
+                cerr << "入力が数字ではありません" << endl;
+                cin.clear(); cin.ignore();
+            }else if(decimal < 0){
+                cerr << "入力が負の数です" << endl;
+            }else
+                break;
         }
-
-        cout <<"2以上16以下の整数を入力してください。終了するときは数字以外の文字を入力をしてください" << endl;
-        int base; cin >> base;
-        if(cin.fail()){
-            cout << "数字以外の文字が入力されました。" << endl;
-            break;
-        }else if(base < 2 || 16 < base){
-            cout << "2未満または16より大きい数が入力されました。" << endl;
-            break;
+        //基底の入力
+        int base;
+        while(1){
+            cout << "2以上16以下の整数を入力してください" << endl;
+            cin >> base;
+            if(cin.fail()){
+                cerr << "入力が数字ではありません" << endl;
+                cin.clear(); cin.ignore();
+            }else if(base < 2 || 16 < base){
+                cerr << "入力が2未満または16より大きい数です" << endl;
+            }else
+                break;
         }
 
         cout << decimal << "を" << base << "進数に直した値は:" << fnc(decimal, base) << endl;
