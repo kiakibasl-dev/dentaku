@@ -61,6 +61,12 @@ int baseNnum(){
         }
 
         cout << decimal << "を" << base << "進数に直した値は:" << fnc(decimal, base) << endl;
+        
+        //コンティニューの選択
+        cout << "進数変換を続けるなら'c'を、終了するなら'q'を入力してください" << endl;
+        char cq; cin >> cq;
+        if(cq == 'q') break;
+        
     }
 
     cout << "ｎ進数変換を終了します。" << endl;
